@@ -1,2 +1,7 @@
 imutils==0.5.3
 numpy==1.17.4
+opencv-python
+matplotlib
+facenet_pytorch
+torch
+torchvision
