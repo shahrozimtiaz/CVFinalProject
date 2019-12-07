@@ -15,7 +15,7 @@ vs = VideoStream(src=0).start()
 time.sleep(2.0)
 total = 0
 
-print("Press p to the a picture")
+print("Press p to take a picture. Press q to quit.")
 
 while True:
 	frame = vs.read()
