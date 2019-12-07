@@ -7,9 +7,9 @@ import time
 import cv2
 import os
 
-from infer import FaceDetector
+from HoosFace import HoosFace
 
-fd = FaceDetector()
+fd = HoosFace()
 
 print("Starting up camera ....")
 vs = VideoStream(src=0).start()
