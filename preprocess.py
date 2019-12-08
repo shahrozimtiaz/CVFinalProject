@@ -7,8 +7,8 @@ import detect_face
 class PreProcessor():
     def __init__(self):
         with tf.Graph().as_default():
-            gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.85)
-            self.sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
+            gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.85)
+            self.sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
             with self.sess.as_default():
                 self.pnet, self.rnet, self.onet = detect_face.create_mtcnn(self.sess, None)
 

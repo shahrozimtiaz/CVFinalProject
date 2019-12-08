@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f615bed-f112-40dd-9952-742d1caa8cce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/directory_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/directory_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/angelina_jolie/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/bradley_cooper/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/chris/15:41:07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/chris/15:41:11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/chris/15:41:22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/kate_siegel/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/paul_rudd/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/shea_whigham/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoosFace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceRecognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,27 +39,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="npy" value="1" />
-          <entry key="png" value="3" />
-          <entry key="py" value="8" />
-          <entry key="txt" value="1" />
+          <entry key="png" value="5" />
+          <entry key="py" value="24" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="8" />
+          <entry key="Image" value="5" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="305" />
+          <entry key="py" value="479" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="305" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="479" />
         </counts>
       </usages-collector>
     </session>
@@ -51,36 +70,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directory_images.py">
+        <entry file="file://$PROJECT_DIR$/webcam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/label.py">
+        <entry file="file://$PROJECT_DIR$/hoosFace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="416">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding>
-                <element signature="e#18#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,6 +102,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>Logging before flag parsing goes to stderr</find>
+      <find>tf.variable_scope</find>
+      <find>dtype</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,9 +114,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/directory_images.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/HoosFace.py" />
+        <option value="$PROJECT_DIR$/label.py" />
+        <option value="$PROJECT_DIR$/name_with_webcam.py" />
         <option value="$PROJECT_DIR$/detect_face.py" />
         <option value="$PROJECT_DIR$/preprocess.py" />
-        <option value="$PROJECT_DIR$/label.py" />
+        <option value="$PROJECT_DIR$/webcam.py" />
+        <option value="$PROJECT_DIR$/hoosFace.py" />
       </list>
     </option>
   </component>
@@ -134,6 +146,10 @@
             <path>
               <item name="CVFinalProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="CVFinalProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CVFinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +212,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceRecognition.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/shahroz/17:05:14.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -211,29 +221,65 @@
     <entry file="file://$PROJECT_DIR$/opencv0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/detect_face.py">
+    <entry file="file://$PROJECT_DIR$/label.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="e#18#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/name_with_webcam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#1#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="577">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/detect_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#1261#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/directory_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -241,12 +287,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/label.py">
+    <entry file="file://$PROJECT_DIR$/webcam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoosFace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
-            <element signature="e#18#28#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
