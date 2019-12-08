@@ -1,7 +1,7 @@
 # CVFinalProject
 
 #### Getting started
-download the repo
+download the repo and unzip it.
 
 run bash requirements.sh (which runs two pip3 install commands) to install the necessary modules.
 
