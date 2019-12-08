@@ -1,4 +1,4 @@
-**A collection easy to use live face recognition scripts**
+**An easy to use live face recognition program**
 
 # HoosFace
 
