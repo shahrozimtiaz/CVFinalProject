@@ -2,9 +2,9 @@ import sys
 import cv2
 import time
 from PIL import Image
-from HoosFace import HoosFace
+from hoosFace import hoosFace
 
-classifier = HoosFace()
+classifier = hoosFace()
 camera = cv2.VideoCapture(0)
 
 while True:

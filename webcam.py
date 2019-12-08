@@ -9,7 +9,7 @@ from hoosFace import HoosFace
 
 print('Initializing ....')
 preprocessor = preprocess.PreProcessor()
-fd = HoosFace()
+classifier = HoosFace()
 
 print("Starting up camera ....")
 vs = VideoStream(src=0).start()
@@ -26,7 +26,7 @@ while True:
     bb = preprocessor.align(frame)
     scaled_img = 'temp.png'
     cv2.rectangle(frame, (bb[0], bb[1]), (bb[2], bb[3]), (0, 255, 0), 5)
-    name = fd.name_face(Image.fromarray(frame))
+    name = classifier.name_face(Image.fromarray(frame))
     font = cv2.FONT_HERSHEY_SIMPLEX
     cv2.putText(frame, name, (50, 50), font, 0.8, (0, 255, 0), 2, cv2.LINE_AA)
     cv2.imshow('frame', frame)
