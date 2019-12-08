@@ -4,6 +4,7 @@ import imutils
 import time
 import cv2
 import preprocess
+import os
 
 from hoosFace import HoosFace
 
@@ -38,3 +39,4 @@ while True:
 
 cv2.destroyAllWindows()
 vs.stop()
+os.remove(scaled_img)
