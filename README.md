@@ -1,6 +1,8 @@
 # CVFinalProject
 
 #### Getting started
+download the repo
+
 run pip install -r requirements.txt to install the necessary modules.
 
 run python3 directory_images.py to register a new face or add pictures to an existing dataset.
