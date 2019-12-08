@@ -1,4 +1,4 @@
-**An easy to use live face recognition program**
+**An easy to use live face recognition program using Facenet's implimentation of Resnet and MTCNN**
 
 # HoosFace
 
