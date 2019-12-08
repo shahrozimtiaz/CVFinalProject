@@ -10,7 +10,7 @@ name = name.lower().replace(" ", "")
 directory = os.path.sep.join(['dataset', name])
 
 print("Starting up camera ....")
-detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+detector = cv2.CascadeClassifier("resources/haarcascade_frontalface_default.xml")
 vs = VideoStream(src=0).start()
 time.sleep(2.0)
 total = 0

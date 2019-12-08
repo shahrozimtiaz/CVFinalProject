@@ -3,7 +3,6 @@ import tensorflow as tf
 import numpy as np
 import detect_face
 
-
 class PreProcessor():
     def __init__(self):
         with tf.Graph().as_default():
