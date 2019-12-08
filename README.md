@@ -1,10 +1,8 @@
 # CVFinalProject
 
-#### Requirements
-1. OpenCV
-2. Virtualenv
-
 #### Getting started
-`pip install -r requirements.txt`
+run pip install -r requirements.txt to install the necessary modules.
 
-`python directory_images.py`
+run python3 directory_images.py to register a new face or add pictures to an existing dataset.
+
+run python3 webcam.py to run the application and have the face in the webcam identified.
